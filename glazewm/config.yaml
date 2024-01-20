@@ -98,13 +98,13 @@ bar:
       label_collapse_text: " < "
       margin: "0 10 0 10"
 
-    - type: "music"
-      label_not_playing: ""
-      label_paused: "| {song_title} - {artist_name} |"
-      label_playing: "| {song_title} - {artist_name} ▶ |"
-      max_title_length: 20
-      max_artist_length: 20
-      margin: "0 10 0 10"
+    # - type: "music"
+    #   label_not_playing: ""
+    #   label_paused: "| {song_title} - {artist_name} |"
+    #   label_playing: "| {song_title} - {artist_name} ▶ |"
+    #   max_title_length: 20
+    #   max_artist_length: 20
+    #   margin: "0 10 0 10"
 
   components_center:
     - type: "workspaces"
@@ -167,7 +167,7 @@ bar:
     - type: "clock"
       # Documentation on formatting date/time string:
       # https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings
-      time_formatting: " HH:MM | 󰃭 ddd d MMM yy"
+      time_formatting: " HH:mm | 󰃭 ddd d MMM yy"
       margin: "0 10px 0 10"
 
 workspaces:
