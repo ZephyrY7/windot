@@ -305,7 +305,7 @@ keybindings:
   # to start Windows Terminal and Git Bash respectively.
   - command: "exec wt"
     binding: "Alt+T"
-  - command: "exec 'C:\\Users\\zephyr\\scoop\\apps\\ungoogled-chromium\\current\\chrome.exe'"
+  - command: "exec '.\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Scoop Apps\\Chromium.lnk'"
     binding: "Alt+B"
 
   # Focus the workspace that last had focus.
