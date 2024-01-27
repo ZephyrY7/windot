@@ -211,11 +211,13 @@ window_rules:
   - command: "resize borders 0px -7px -7px -7px"
     match_process_name: "steamwebhelper"
   - command: "resize borders 0px -7px -7px -7px"
+    match_process_name: "steam"
+  - command: "resize borders 0px -7px -7px -7px"
     match_process_name: "EpicGamesLauncher"
   - command: "resize borders 0px -2px 0px -2px"
     match_process_name: "Notepad"
   - command: "resize borders 0px -7px 0px -7px"
-    match_process_name: "vmware"
+    match_process_name: "vmplayer"
 
 binding_modes:
   - name: "resize"
