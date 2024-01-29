@@ -7,5 +7,9 @@ function dl{
         [Parameter(Mandatory=$true)]
         [string]$file
     	)
-	aria2c --conf-path="~\.config\aria2\aria2.conf" $file
+	aria2c --conf-path="C:\Users\zephyr\.config\aria2\aria2.conf" $file
+}
+
+function mklink ($target, $link) {
+    New-Item -Path $link -ItemType SymbolicLink -Target $target
 }
