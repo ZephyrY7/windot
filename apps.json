@@ -1,0 +1,314 @@
+{
+    "buckets": [
+        {
+            "Name": "extras",
+            "Source": "https://github.com/ScoopInstaller/Extras",
+            "Updated": "2024-02-10T08:33:05+08:00",
+            "Manifests": 1967
+        },
+        {
+            "Name": "games",
+            "Source": "https://github.com/Calinou/scoop-games",
+            "Updated": "2024-02-10T08:32:15+08:00",
+            "Manifests": 296
+        },
+        {
+            "Name": "main",
+            "Source": "https://github.com/ScoopInstaller/Main",
+            "Updated": "2024-02-10T08:32:43+08:00",
+            "Manifests": 1289
+        },
+        {
+            "Name": "nerd-fonts",
+            "Source": "https://github.com/matthewjberger/scoop-nerd-fonts",
+            "Updated": "2024-02-10T00:21:01+08:00",
+            "Manifests": 327
+        },
+        {
+            "Name": "nonportable",
+            "Source": "https://github.com/ScoopInstaller/Nonportable",
+            "Updated": "2024-02-10T04:28:54+08:00",
+            "Manifests": 127
+        },
+        {
+            "Name": "versions",
+            "Source": "https://github.com/ScoopInstaller/Versions",
+            "Updated": "2024-02-10T04:26:55+08:00",
+            "Manifests": 436
+        },
+        {
+            "Name": "zault",
+            "Source": "https://github.com/ZephyrY7/zault.git",
+            "Updated": "2024-02-08T09:27:50+08:00",
+            "Manifests": 42
+        }
+    ],
+    "apps": [
+        {
+            "Name": "7zip",
+            "Updated": "2024-01-30T20:40:25.8729949+08:00",
+            "Source": "main",
+            "Info": "",
+            "Version": "23.01"
+        },
+        {
+            "Name": "7zip19.00-helper",
+            "Updated": "2024-01-30T20:46:02.9193913+08:00",
+            "Source": "main",
+            "Info": "",
+            "Version": "19.00"
+        },
+        {
+            "Name": "anydesk",
+            "Updated": "2024-02-04T01:46:09.6892999+08:00",
+            "Source": "extras",
+            "Info": "",
+            "Version": "8.0.8"
+        },
+        {
+            "Name": "aria2",
+            "Updated": "2024-02-03T11:47:20.1996061+08:00",
+            "Source": "main",
+            "Info": "",
+            "Version": "1.37.0-1"
+        },
+        {
+            "Name": "CascadiaCode-NF",
+            "Updated": "2024-01-30T20:46:08.9138306+08:00",
+            "Source": "nerd-fonts",
+            "Info": "",
+            "Version": "3.1.1"
+        },
+        {
+            "Name": "dark",
+            "Updated": "2024-01-30T20:46:11.8253443+08:00",
+            "Source": "main",
+            "Info": "",
+            "Version": "3.11.2"
+        },
+        {
+            "Name": "dotnet6-sdk",
+            "Updated": "2024-01-30T20:46:27.1185076+08:00",
+            "Source": "versions",
+            "Info": "",
+            "Version": "6.0.418"
+        },
+        {
+            "Name": "driverstoreexplorer",
+            "Updated": "2024-01-30T20:46:29.434124+08:00",
+            "Source": "extras",
+            "Info": "",
+            "Version": "0.11.92"
+        },
+        {
+            "Name": "epic-games-launcher",
+            "Updated": "2024-01-30T06:02:30.3467545+08:00",
+            "Source": "games",
+            "Info": "",
+            "Version": "15.17.1"
+        },
+        {
+            "Name": "gcc",
+            "Updated": "2024-01-30T20:46:53.8957232+08:00",
+            "Source": "main",
+            "Info": "",
+            "Version": "13.2.0"
+        },
+        {
+            "Name": "git",
+            "Updated": "2024-01-30T20:40:41.6343706+08:00",
+            "Source": "main",
+            "Info": "",
+            "Version": "2.43.0"
+        },
+        {
+            "Name": "glazewm",
+            "Updated": "2024-01-30T06:02:48.0713356+08:00",
+            "Source": "extras",
+            "Info": "",
+            "Version": "2.1.1"
+        },
+        {
+            "Name": "hwinfo",
+            "Updated": "2024-02-06T01:51:13.7332839+08:00",
+            "Source": "extras",
+            "Info": "",
+            "Version": "7.72-5355"
+        },
+        {
+            "Name": "innounp",
+            "Updated": "2024-01-30T20:47:01.2547417+08:00",
+            "Source": "main",
+            "Info": "",
+            "Version": "0.50"
+        },
+        {
+            "Name": "lenovolegiontoolkit",
+            "Updated": "2024-02-09T22:20:00.7884842+08:00",
+            "Source": "extras",
+            "Info": "",
+            "Version": "2.20.1"
+        },
+        {
+            "Name": "nvidia-display-driver-dch-np",
+            "Updated": "2024-01-30T06:06:51.6124539+08:00",
+            "Source": "nonportable",
+            "Info": "",
+            "Version": "551.23"
+        },
+        {
+            "Name": "office-365-apps-minimal-np",
+            "Updated": "2024-01-30T20:49:39.658697+08:00",
+            "Source": "zault",
+            "Info": "",
+            "Version": "16.0.17126.20132"
+        },
+        {
+            "Name": "oh-my-posh",
+            "Updated": "2024-02-07T22:03:16.1427016+08:00",
+            "Source": "main",
+            "Info": "",
+            "Version": "19.8.3"
+        },
+        {
+            "Name": "pwsh",
+            "Updated": "2024-01-30T20:49:49.8763419+08:00",
+            "Source": "main",
+            "Info": "",
+            "Version": "7.4.1"
+        },
+        {
+            "Name": "spacesniffer",
+            "Updated": "2024-01-30T20:49:53.6499303+08:00",
+            "Source": "extras",
+            "Info": "",
+            "Version": "1.3.0.2"
+        },
+        {
+            "Name": "speedtest-cli",
+            "Updated": "2024-01-30T20:49:55.2760269+08:00",
+            "Source": "main",
+            "Info": "",
+            "Version": "1.2.0"
+        },
+        {
+            "Name": "steam",
+            "Updated": "2024-01-30T06:06:52.6746302+08:00",
+            "Source": "games",
+            "Info": "",
+            "Version": "nightly-20240130"
+        },
+        {
+            "Name": "sudo",
+            "Updated": "2024-01-30T20:49:56.6987134+08:00",
+            "Source": "main",
+            "Info": "",
+            "Version": "0.2020.01.26"
+        },
+        {
+            "Name": "ungoogled-chromium",
+            "Updated": "2024-02-03T10:49:26.2679398+08:00",
+            "Source": "extras",
+            "Info": "",
+            "Version": "121.0.6167.139-1.1"
+        },
+        {
+            "Name": "vcredist",
+            "Updated": "2024-02-02T19:47:38.7164346+08:00",
+            "Source": "extras",
+            "Info": "",
+            "Version": "14.38.33135.0"
+        },
+        {
+            "Name": "vcredist2005",
+            "Updated": "2024-01-30T20:50:36.6390379+08:00",
+            "Source": "extras",
+            "Info": "",
+            "Version": "8.0.50727.6195"
+        },
+        {
+            "Name": "vcredist2008",
+            "Updated": "2024-01-30T20:50:47.9244148+08:00",
+            "Source": "extras",
+            "Info": "",
+            "Version": "9.0.30729.5677"
+        },
+        {
+            "Name": "vcredist2010",
+            "Updated": "2024-01-30T20:51:01.473004+08:00",
+            "Source": "extras",
+            "Info": "",
+            "Version": "10.0.40219.325"
+        },
+        {
+            "Name": "vcredist2012",
+            "Updated": "2024-01-30T20:51:07.9010165+08:00",
+            "Source": "extras",
+            "Info": "",
+            "Version": "11.0.61030.0"
+        },
+        {
+            "Name": "vcredist2013",
+            "Updated": "2024-01-30T20:51:12.9111918+08:00",
+            "Source": "extras",
+            "Info": "",
+            "Version": "12.0.40664.0"
+        },
+        {
+            "Name": "ventoy",
+            "Updated": "2024-01-30T20:51:24.1283556+08:00",
+            "Source": "extras",
+            "Info": "",
+            "Version": "1.0.97"
+        },
+        {
+            "Name": "vesktop",
+            "Updated": "2024-01-30T20:51:35.0659075+08:00",
+            "Source": "extras",
+            "Info": "",
+            "Version": "1.5.0"
+        },
+        {
+            "Name": "vmware-workstation-player-np",
+            "Updated": "2024-01-30T06:07:45.1671642+08:00",
+            "Source": "nonportable",
+            "Info": "",
+            "Version": "17.5.0-22583795"
+        },
+        {
+            "Name": "vscode",
+            "Updated": "2024-02-09T22:20:26.8698256+08:00",
+            "Source": "extras",
+            "Info": "",
+            "Version": "1.86.1"
+        },
+        {
+            "Name": "windows-terminal",
+            "Updated": "2024-02-02T21:22:36.993625+08:00",
+            "Source": "extras",
+            "Info": "",
+            "Version": "1.19.10302.0"
+        },
+        {
+            "Name": "winget",
+            "Updated": "2024-01-30T20:52:18.8469828+08:00",
+            "Source": "main",
+            "Info": "",
+            "Version": "1.6.3482"
+        },
+        {
+            "Name": "youtube-music",
+            "Updated": "2024-01-30T20:52:31.7296565+08:00",
+            "Source": "extras",
+            "Info": "",
+            "Version": "3.2.2"
+        },
+        {
+            "Name": "zetch",
+            "Updated": "2024-01-30T05:16:21.4463206+08:00",
+            "Source": "zault",
+            "Info": "",
+            "Version": "1.0"
+        }
+    ]
+}
