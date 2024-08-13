@@ -14,7 +14,7 @@ window/bar:
   # X-position of the window in physical pixels.
   position_x: '{{ Number(self.args.MONITOR_X) + 5 }}'
   # Y-position of the window in physical pixels.
-  position_y: '{{  Number(self.args.MONITOR_Y) + 3 }}'
+  position_y: '{{  Number(self.args.MONITOR_Y) + 1035 }}'
   # Whether to show the window above/below all others.
   # Allowed values: 'always_on_top', 'always_on_bottom', 'normal'.
   z_order: 'normal'
@@ -39,7 +39,7 @@ window/bar:
     font-family: Cascadia Mono, monospace;
     font-size: 12px;
     padding: 0px 12px;
-    background: #1e1e2e;
+    background: rgba(30, 30, 46, 0.77);
     border-radius: 10px;
     border: 1px solid #89b4fa;
 
